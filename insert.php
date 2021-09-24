@@ -3,10 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="css/base.css" rel="stylesheet" type="text/css">
         <title>Nombre del Trabajador</title>
     </head>
     <body>
-        
+        <div class="barraPrincipal">
+            <h1 class="tituloBarra">FABRICA "OMNISTO"</h1>
+        </div>
         <?php
             //Configuraciones de la BDD
             $servername = 'localhost';
@@ -42,6 +45,11 @@
             $conn = null;
 
         ?>
+
+    <div align="center">
+        <br><br>
+        <a href="index.php">Volver a Inicio</a>
+    </div>
 
     </body>
 </html>
